@@ -5,10 +5,10 @@ output "rgName" {
 }
 
 output "location" {
-  value = azurerm.resource_group.location
+  value = azurerm.resource_group.rg.location
 }
 
 output "tags" {
-  value = azurerm.resource_group.tags
+  value = azurerm.resource_group.rg.tags
 }
 
